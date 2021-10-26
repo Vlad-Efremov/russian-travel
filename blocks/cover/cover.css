@@ -1,0 +1,27 @@
+.cover {
+  max-width  : 1184px;
+  align-items: center;
+  margin     : 92px auto 0 auto;
+  transition : 0.40s;
+}
+
+@media all and (max-width:1024px) {
+  .cover {
+    max-width : 1024px;
+    min-height: 640px;
+  }
+}
+
+@media all and (max-width:768px) {
+  .cover {
+    max-width : 768px;
+    min-height: 480px;
+  }
+}
+
+@media all and (max-width:320px) {
+  .cover {
+    max-width : 320px;
+    min-height: 200px;
+  }
+}
