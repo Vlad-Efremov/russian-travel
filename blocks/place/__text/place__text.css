@@ -5,9 +5,9 @@
   font-size  : 18px;
   line-height: 163%;
   color      : #FFFFFF;
-  margin     : 0;
+  margin     : 26px 0 0 0;
 }
 
-.place__text:nth-child(2) {
-  margin-top: 26px;
+.place__text:first-child {
+  margin: 0;
 }

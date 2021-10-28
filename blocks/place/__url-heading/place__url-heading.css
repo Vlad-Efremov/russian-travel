@@ -5,5 +5,7 @@
   font-size      : 12px;
   line-height    : 12px;
   text-decoration: none;
+  letter-spacing : 2px;
+  text-transform : uppercase;
   color          : #AAAAAA;
 }

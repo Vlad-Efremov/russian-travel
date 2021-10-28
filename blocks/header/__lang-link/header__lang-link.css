@@ -1,5 +1,4 @@
 .header__lang-link {
-  max-height     : 28px;
   font-family    : Inter, Arial, sans-serif;
   font-style     : normal;
   font-weight    : 400;
@@ -7,16 +6,20 @@
   line-height    : 28px;
   text-decoration: underline;
   color          : #FFFFFF;
+  text-decoration: none;
+  transition     : 0.40s;
 }
 
-.header__lang-link:nth-child(2) {
-  text-decoration: none;
-  margin-left    : 18px;
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+.header__lang-link:nth-child(1) {
+  margin-left: 18px;
 }
 
 @media all and (max-width:320px) {
   .header__lang-link {
-    height     : 20px;
     font-size  : 18px;
     line-height: 20px;
   }

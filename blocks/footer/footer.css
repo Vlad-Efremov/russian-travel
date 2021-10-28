@@ -2,7 +2,8 @@
   max-width      : 1184px;
   display        : flex;
   justify-content: space-between;
-  margin         : 92px auto 24px auto;
+  margin         : 92px auto 0 auto;
+  padding        : 0 0 24px 0;
 }
 
 @media all and (max-width:1024px) {
@@ -14,14 +15,13 @@
 @media all and (max-width:768px) {
   .footer {
     max-width: 720px;
-    margin   : 88px auto 24px auto;
+    margin   : 88px auto 0 auto;
   }
 }
 
 @media all and (max-width:320px) {
   .footer {
-    display       : flex;
     flex-direction: column;
-    margin        : 64px auto 24px 16px;
+    margin        : 64px auto 0 16px;
   }
 }
