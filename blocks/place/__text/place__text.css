@@ -11,3 +11,10 @@
 .place__text:first-child {
   margin: 0;
 }
+
+@media all and (max-width:768px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

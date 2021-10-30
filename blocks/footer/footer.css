@@ -8,18 +8,18 @@
 
 @media all and (max-width:1024px) {
   .footer {
-    max-width: 928px;
+    max-width: 90.625%;
   }
 }
 
 @media all and (max-width:768px) {
   .footer {
-    max-width: 720px;
+    max-width: 93.75%;
     margin   : 88px auto 0 auto;
   }
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:360px) {
   .footer {
     flex-direction: column;
     margin        : 64px auto 0 16px;

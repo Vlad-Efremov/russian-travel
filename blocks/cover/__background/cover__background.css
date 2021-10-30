@@ -28,13 +28,19 @@
 
 @media all and (max-width:1024px) {
   .cover__background {
-    min-height: 640px;
+    height: 100%;
   }
 }
 
 @media all and (max-width:768px) {
   .cover__background {
     min-height: 480px;
+  }
+}
+
+@media all and (max-width:360px) {
+  .cover__background {
+    min-height: 200px;
   }
 }
 

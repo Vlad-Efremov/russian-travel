@@ -16,10 +16,23 @@
 @media all and (max-width:768px) {
   .places {
     max-width: 720px;
-    row-gap  : 73px;
+    row-gap  : 72px;
     margin   : 88px auto 0 auto;
   }
 }
+
+@media all and (max-width:700px) {
+  .places {
+    margin   : 88px 15px 0 15px;
+  }
+}
+
+@media all and (max-width:650px) {
+  .places {
+    margin   : 88px 0 0 0;
+  }
+}
+
 
 @media all and (max-width:320px) {
   .places {

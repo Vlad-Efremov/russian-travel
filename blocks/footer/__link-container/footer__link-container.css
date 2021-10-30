@@ -2,7 +2,7 @@
   margin: 0 18px 0 0;
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:360px) {
   .footer__link-container {
     margin: 0 0 32px 0;
   }
